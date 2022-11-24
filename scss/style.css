@@ -139,7 +139,6 @@ main .contenido .fecha {
 }
 
 .formulario {
-  background: cover;
   background-color: white;
   border-radius: 8px;
   padding: 3rem;
@@ -162,7 +161,6 @@ main .contenido .fecha {
   top: 45%;
   left: 50%;
   border: black solid 3px;
-  background: cover;
 }
 
 aside {
@@ -200,5 +198,3 @@ aside .indice a {
     position: static;
   }
 }/*# sourceMappingURL=style.css.map */
-
-

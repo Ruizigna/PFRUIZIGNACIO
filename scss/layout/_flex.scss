@@ -1,0 +1,21 @@
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+h2{
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	font-family: 'Open Sans';
+}
+.galeriaim {
+    display:flex;
+   flex-wrap:wrap;
+   gap: 10px;
+   justify-content: center;
+   }
+   

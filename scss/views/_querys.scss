@@ -1,0 +1,11 @@
+@media screen and (max-width: 900px){
+
+	.contenedor-imagen {
+		height: 50vh;
+	}
+
+	main .contenedor {
+		flex-direction: column;
+	}
+    aside { position: static;}
+}
