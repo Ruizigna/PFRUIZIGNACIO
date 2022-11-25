@@ -198,3 +198,165 @@ aside .indice a {
     position: static;
   }
 }/*# sourceMappingURL=style.css.map */
+
+/* * ============================== */
+/* * ====== NUESTRO LABURO ========= */
+/* * ============================== */
+
+main .sobre-nosotros{
+  padding: 30px 0 60px 0;
+}
+.contenedor-sobre-nosotros{
+  display: flex;
+  justify-content: space-evenly;
+  
+  
+}
+
+.imagen-cocinero{
+width:25%;
+  height:50%;
+  top: 95%;
+  left: 10%;
+ 
+ 
+
+}
+
+.sobre-nosotros .contenido-textos{
+  width: 45%;
+
+}
+
+.contenido-textos h3{
+  margin-bottom: 30px;
+
+}
+
+.contenido-textos h3 span{
+  background: #AC6664;
+  color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+  margin-right: 5px;
+  
+}
+
+.contenido-textos p{
+  padding: 0px 0px 30px 15px;
+  font-weight: 300;
+  text-align: justify;
+}
+/* * ============================== */
+/* * ====== portafolio ========= */
+/* * ============================== */
+
+.portafolio{
+  background: #f2f2f2;
+  text-align: center;
+  
+  
+}
+.trabajos {
+  font-size: 40px;
+   
+}
+.galeria-port{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+padding: 80px;
+  
+}
+
+  
+
+.imagen-port{
+  width: 24%;
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  
+}
+
+.hover-galeria{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transform: scale(0);
+  background:  rgba(209, 165, 70, 0.7);
+  transition: transform .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.hover-galeria img{
+  width: 50px;
+  
+}
+
+.hover-galeria p{
+  color: #fff;
+  
+}
+
+.imagen-port:hover .hover-galeria{
+  transform: scale(1);
+}
+/* * ============================== */
+/* * ====== RESEÑAS ========= */
+/* * ============================== */
+/* Clients */
+
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cards .card{
+  background: #AC6664;
+  display: flex;
+  width: 46%;
+  height: 250px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards .card img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  display: block;
+}
+
+.cards .card > .contenido-texto-card{
+  width: 60%;
+  color: #fff;
+}
+
+.cards .card > .contenido-texto-card p{
+  font-weight: 300;
+  padding-top: 5px;
+}

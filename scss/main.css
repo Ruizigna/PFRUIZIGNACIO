@@ -1,0 +1,201 @@
+@charset "UTF-8";
+.contenedor-imagen {
+  height: 100vh;
+}
+
+.contenedor-imagen img {
+  width: 100%;
+  height: 70%;
+  vertical-align: top;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 bottom;
+     object-position: 0 bottom;
+}
+
+.galeriaim {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.galeriaim img {
+  border-radius: 5%;
+  opacity: 0.5;
+}
+
+.galeriaim img:hover {
+  opacity: 1;
+}
+
+.wrap {
+  font-family: "Open Sans";
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url(../assets/imagenes/高解像度！無料でダウンロードできる黒板画像の背景素材いろいろ（JPG・PNG・PDF・PAT）.jfif);
+  background-repeat: repeat;
+  background-position: right;
+  background-attachment: scroll;
+  text-align: center;
+  opacity: 0.9;
+  color: white;
+}
+
+hr {
+  background-color: white;
+  height: 3px;
+}
+
+.imagen-cocinero {
+  width: 25%;
+  height: 50%;
+  top: 95%;
+  left: 10%;
+}
+
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  color: black;
+  font-family: "Lora", serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans";
+}
+
+h3 {
+  font-size: 2em;
+  font-family: "Lora", serif;
+}
+
+h5 {
+  color: white;
+  font-size: 3.5em;
+}
+
+h6 {
+  font-size: 2.5em;
+}
+
+main .contenido p {
+  margin-bottom: 20px;
+  line-height: 30px;
+  color: #525151;
+}
+
+main .contenido .titulo {
+  font-family: "Open Sans";
+  font-weight: normal;
+  padding-top: 40px;
+}
+
+main .contenido .fecha {
+  font-size: 14px;
+  color: #B5B5B5;
+}
+
+.formulario {
+  background-color: white;
+  border-radius: 8px;
+  padding: 3rem;
+  margin-bottom: 1rem;
+  width: auto;
+  height: auto;
+  max-width: 1000px;
+  max-height: 1000px;
+  border: black solid 3px;
+  border-radius: 20px;
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans";
+}
+
+.galeriaim {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.contenedor-sobre-nosotros {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.galeria-port {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 80px;
+}
+
+.hover-galeria {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transform: scale(0);
+  background: rgba(209, 165, 70, 0.7);
+  transition: transform 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lora", serif;
+  background-image: linear-gradient(to right top, #f9f9f9, #f6f4f7, #f5eff3, #f5eaed, #f4e5e5);
+}
+
+@media screen and (max-width: 900px) {
+  .contenedor-imagen {
+    height: 50vh;
+  }
+  main .contenedor {
+    flex-direction: column;
+  }
+  aside {
+    position: static;
+  }
+}/*# sourceMappingURL=main.css.map */
