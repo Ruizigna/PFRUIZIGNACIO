@@ -48,10 +48,18 @@ hr {
 }
 
 .imagen-cocinero {
-  width: 25%;
-  height: 50%;
-  top: 95%;
+  width: 150px;
+  height: 150px;
+  top: 90%;
   left: 10%;
+}
+
+.imgf {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  top: 140%;
+  left: 50%;
 }
 
 .contenedor {
@@ -186,6 +194,11 @@ h2 {
 body {
   font-family: "Lora", serif;
   background-image: linear-gradient(to right top, #f9f9f9, #f6f4f7, #f5eff3, #f5eaed, #f4e5e5);
+}
+
+.contenido-textos {
+  font-size: small;
+  font-family: "Lora", serif;
 }
 
 @media screen and (max-width: 900px) {
